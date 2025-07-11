@@ -1,0 +1,10 @@
+{
+    "files": [
+        "mainwindow.py",
+        "form.ui",
+        "socket_client.py",
+        "img.qrc",
+        "ui_form.py",
+        "rc_img.py"
+    ]
+}

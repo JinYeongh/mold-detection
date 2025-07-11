@@ -1,0 +1,6 @@
+PySide6
+torch
+torchvision
+opencv-python
+Pillow
+ultralytics>=8.0.0
