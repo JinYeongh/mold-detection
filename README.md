@@ -50,7 +50,8 @@ MOLD DETECTION
 
 ## 문제 해결 방법  
 - 모델 구조 재설계 및 선택 유연화
-  
+  - 사전학습 제거 후 Resnet18을 Scratch로 학습
+  - 이후 Resnet50으로 확장하고 FC레이어를 DROPOIT, BATCHNORM으로 커스터마이징
 
 ---
 
