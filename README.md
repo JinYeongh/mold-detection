@@ -53,6 +53,26 @@
 
 ---
 
+## 데이터베이스 ERD
+
+- **USER_INFO**  
+  회원 정보 저장  
+  - `PHONENUMBER` : 회원 전화번호 (PK)  
+  - `PASSWORD_HASH` : 비밀번호 해시값  
+
+- **SEARCH_INFO**  
+  검사 결과 기록 저장  
+  - `NUM` : 고유 번호 (PK)  
+  - `ADDTIME` : 검사 요청 시간  
+  - `PHONENUMBER` : 회원 전화번호 (FK)  
+  - `STATUS` : 검사 결과 (정상 / 곰팡이)  
+  - `FILENAME` : 저장된 검사 이미지명  
+
+→ `SEARCH_INFO`는 `USER_INFO`와 전화번호를 기준으로 연결됨 (1:N 관계)
+
+
+---
+
 ## 겪었던 문제점
 - 사전학습 모델에서 오분류 발생
 - 과적합으로 검증 정확도 정체
