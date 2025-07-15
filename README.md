@@ -93,4 +93,4 @@ mold-detection/
 ---
 
 ## 🖼️ 메인 화면 예시
-![메인 화면](./UI/메인.png)
+![메인 화면](./UI/main.png)
