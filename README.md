@@ -56,7 +56,7 @@ MOLD DETECTION
   - 회전, 색상 조정, 스케일 조절 등 이미지 증강 적용  
   - EarlyStopping와 StepLR 스케줄러로 과적합 방지  
 - 학습 환경 최적화  
-  - Batch size를 32-> 4로 줄이고 torch. backends. cudnn. benchmark = True 설정추가  
+  - Batch size를 32 -> 4로 줄이고 torch. backends. cudnn. benchmark = True 설정추가  
   - GPU캐시 메모리 수시 정리로 메모리 효율 확보  
 - 실험 재현성 확보  
   - 학습 로그 및 모델 자동 저장 기능 추가  
