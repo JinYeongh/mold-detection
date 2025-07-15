@@ -92,5 +92,25 @@ mold-detection/
 
 ---
 
-## 🖼️ 메인 화면 예시
-![메인 화면](./UI/main.png)
+## 🖼️ 실행 결과
+
+### Main User Interface
+![Main UI](./UI/main_ui.png)
+
+### Login Page
+![Login Page](./UI/login_page.png)
+
+### Register Page
+![Register Page](./UI/register_page.png)
+
+### History Page
+![History Page](./UI/history_page.png)
+
+### Logout State
+![Logout](./UI/logout.png)
+
+### Mold Detection Result
+![Mold Detected](./UI/mold.PNG)
+
+### Not Food Detection Result
+![Not Food](./UI/not_food.png)
