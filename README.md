@@ -103,14 +103,18 @@ mold-detection/
 ### 회원가입 화면
 ![Register Page](./UI/register_page.png)
 
-### History Page
+### 결과 조회 화면
 ![History Page](./UI/history_page.png)
 
-### Logout State
+### 로그아웃 상태 화면
 ![Logout](./UI/logout.png)
 
-### Mold Detection Result
+### 곰팡이 감지 결과 화면
 ![Mold Detected](./UI/mold.PNG)
 
-### Not Food Detection Result
+### 음식 아님 감지 결과 화면
 ![Not Food](./UI/not_food.png)
+
+### 정상 감지 결과 화면
+![앱 배경화면](./UI/fresh.png)
+
