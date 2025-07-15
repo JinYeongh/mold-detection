@@ -97,6 +97,15 @@ mold-detection/
 ### 메인 사용자 인터페이스
 ![Main UI](./UI/main_ui.png)
 
+### 곰팡이 감지 결과 화면
+![Mold Detected](./UI/mold.PNG)
+
+### 음식 아님 감지 결과 화면
+![Not Food](./UI/not_food.png)
+
+### 정상 감지 결과 화면
+![앱 배경화면](./UI/fresh.png)
+
 ### 로그인 화면
 ![Login Page](./UI/login_page.png)
 
@@ -108,13 +117,4 @@ mold-detection/
 
 ### 로그아웃 상태 화면
 ![Logout](./UI/logout.png)
-
-### 곰팡이 감지 결과 화면
-![Mold Detected](./UI/mold.PNG)
-
-### 음식 아님 감지 결과 화면
-![Not Food](./UI/not_food.png)
-
-### 정상 감지 결과 화면
-![앱 배경화면](./UI/fresh.png)
 
