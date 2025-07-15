@@ -94,13 +94,13 @@ mold-detection/
 
 ## 🖼️ 실행 결과
 
-### Main User Interface
+### 메인 사용자 인터페이스
 ![Main UI](./UI/main_ui.png)
 
-### Login Page
+### 로그인 화면
 ![Login Page](./UI/login_page.png)
 
-### Register Page
+### 회원가입 화면
 ![Register Page](./UI/register_page.png)
 
 ### History Page
