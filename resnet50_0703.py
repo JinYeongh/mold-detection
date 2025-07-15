@@ -151,18 +151,18 @@ for epoch in range(num_epochs):
         best_val_acc = val_acc
         counter = 0
         torch.save(model.state_dict(), 'best_model_123.pth')
-        print("  ✔ 모델 저장됨 (val_acc 감소)")
+        print("  모델 저장됨 (val_acc 감소)")
     else:
         counter += 1
-        print(f"  ✘ 감소 없음 → EarlyStopping 카운터: {counter}/{patience}")
+        print(f"  감소 없음 → EarlyStopping 카운터: {counter}/{patience}")
         if counter >= patience:
-            print("  ⚠ 감소 없어서 멈충")
+            print("  감소 없어서 멈충")
             break
 
     scheduler.step()
 
 # ────────────가장 높은 val acc 출력────────────────
-print(f"\n🎯 최고 검지 정확도 (Best Validation Accuracy): {best_val_acc:.2f}%")
+print(f"\n 최고 정확도 (Best Validation Accuracy): {best_val_acc:.2f}%")
 
 # ────────────전체 데이터로 미세조정────────────────
 print("\n전체 데이터로 재학습 (fine-tuning) 시작")
